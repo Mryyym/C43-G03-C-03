@@ -3,7 +3,7 @@
 namespace SecondAssignment
 {
     internal class Program
-    {
+    { 
         static void Main(string[] args)
         {
             #region 1
@@ -532,5 +532,7 @@ Write a program that allows the user to insert an integer then print a multiplic
 
 
         }
+
+
     }
 }
