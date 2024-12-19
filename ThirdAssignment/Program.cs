@@ -1,4 +1,6 @@
-﻿namespace ThirdAssignment
+﻿using System;
+
+namespace ThirdAssignment
 {
     internal class Program
     {
@@ -44,10 +46,34 @@
 
 
             #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+            /*
+            Console.WriteLine("Enter the input string:");
+            string input = Console.ReadLine();
+            if (input == "" || input == " " || input == null)
+            {
+                Console.WriteLine("Input cannot be empty");
+                return;
+            }
+            Console.WriteLine("Enter the new character:");
+            if (!char.TryParse(Console.ReadLine(), out char newChar))
+            {
+                Console.WriteLine("Please enter a single character.");
+                return;
+            }
 
+            int position = 0;
 
+            string result = ChangeChar(input, position, newChar);
+            Console.WriteLine("New string: " + result);
+
+            static string ChangeChar(string input, int position, char newChar)
+            {
+             
+                return input.Substring(0, position) + newChar + input.Substring(position + 1);
+            }
+            */
             #endregion
-           
+
         }
 
     }
